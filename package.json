@@ -1,0 +1,28 @@
+{
+  "name": "distributetest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "serve": "npm run watch && npm run start",
+    "start": "webpack-dev-server --mode=development",
+    "watch": "webpack -w --mode=development",
+    "build": "webpack --hot —-mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SEMINSEMINSEMIN/distTest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SEMINSEMINSEMIN/distTest/issues"
+  },
+  "homepage": "https://github.com/SEMINSEMINSEMIN/distTest#readme",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
