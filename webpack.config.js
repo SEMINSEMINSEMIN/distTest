@@ -14,7 +14,8 @@ module.exports = {
         },
         port: 3000,
         open: true,
-        devMiddleware: { writeToDisk: true }
+        devMiddleware: { writeToDisk: true },
+        historyApiFallback: true
     },
     watchOptions: {
         poll: true,
