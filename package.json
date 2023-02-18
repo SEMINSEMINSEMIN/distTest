@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server --mode=development",
     "watch": "webpack -w --mode=development",
-    "build": "webpack —-mode production"
+    "build": "npx webpack --mode=production"
   },
   "repository": {
     "type": "git",
