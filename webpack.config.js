@@ -5,7 +5,7 @@ module.exports = {
     output: {
         publicPath: "", 
         filename: "main.js",
-        path: path.resolve(__dirname, "dist/js/"),
+        path: path.resolve(__dirname, "dist"),
     },
     devServer: {
         static: "./dist", // This tells webpack-dev-server to serve the files from the dist directory on localhost:3000.
